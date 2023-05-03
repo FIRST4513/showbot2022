@@ -88,7 +88,7 @@ public class driveByJoystickCmd extends CommandBase {
         double throttledSpd = spdOut * throttle;
         double throttledRot = rotOut * throttle;
 
-        m_drivetrainSubSys.curveDrive(throttledSpd, throttledRot, true);
+        m_drivetrainSubSys.arcadeDrive(throttledSpd, throttledRot);
     }
 
     // Called once the command ends or is interrupted.
