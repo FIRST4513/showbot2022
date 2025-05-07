@@ -9,7 +9,6 @@
 // it from being updated in the future.
 
 // ROBOTBUILDER TYPE: Command.
-
 package robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj.Timer;
